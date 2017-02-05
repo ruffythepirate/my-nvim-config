@@ -55,6 +55,10 @@ let g:airline#extensions#tabline#enabled = 1
 
 let g:gitgutter_sign_column_always = 1
 
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
 " Key mappings
 " ==============
 " Buffer Navigation
@@ -65,7 +69,8 @@ nmap <C-c> :bdelete<cr>
 " import in scala
 nmap <C-i> :EnSuggestImport<cr>
 
-
+set hidden
+set number
 
 colo desert
 
