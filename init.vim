@@ -37,7 +37,6 @@ NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'avelino/vim-bootstrap-updater'
 NeoBundle 'sheerun/vim-polyglot'
 NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'ensime/ensime-vim'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'Valloric/YouCompleteMe', {  
      \ 'build'      : {
@@ -47,6 +46,7 @@ NeoBundle 'Valloric/YouCompleteMe', {
         \ 'cygwin'  : './install.sh --clang-completer --system-libclang --omnisharp-completer'
         \ }
      \ }
+NeoBundle 'ensime/ensime-vim'
 
 call neobundle#end()
 

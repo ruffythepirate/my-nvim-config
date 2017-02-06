@@ -11,7 +11,8 @@
 3. Install ensime for your build tool. For SBT see here: http://ensime.org/build_tools/sbt/
 4. Remember to add .ensime and .ensime_cache to .gitignore in your project.
 5. In sbt for your project run `ensimeConfig`
-6. When you start your project the first time, run `:EnInstall`, which should spawn a background service.
+6. Run `:UpdateRemovePlugin` from nvim and restart.
+7. When you start your project the first time, run `:EnInstall`, which should spawn a background service.
 
 ### Troubleshooting
 
