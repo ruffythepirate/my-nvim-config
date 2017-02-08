@@ -66,18 +66,14 @@ set tags=./.tags,.tags,./tags,tags
 " Key mappings
 " ==============
 " Buffer Navigation
-nmap <C-j> :bprevious<cr>
-nmap <C-l> :bNext<cr>
+nmap <C-j> :bp<cr>
+nmap <C-l> :bn<cr>
 nmap <C-k> :ls<cr>
-nmap <C-c> :bdelete<cr>
-" import in scala
-nmap <C-i> :EnSuggestImport<cr>
+nmap <C-w> :bw<cr>
 
 set hidden
 set number
-
-colo desert
-
+colo desert 
 filetype plugin indent on
 
 NeoBundleCheck
