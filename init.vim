@@ -59,6 +59,10 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" Ctags configuration:
+
+set tags=./.tags,.tags,./tags,tags
+
 " Key mappings
 " ==============
 " Buffer Navigation
