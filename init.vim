@@ -38,6 +38,7 @@ NeoBundle 'avelino/vim-bootstrap-updater'
 NeoBundle 'sheerun/vim-polyglot'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'derekwyatt/vim-scala'
+NeoBundle 'posva/vim-vue'
 NeoBundle 'Valloric/YouCompleteMe', {  
      \ 'build'      : {
         \ 'mac'     : './install.sh --clang-completer --system-libclang --omnisharp-completer',
