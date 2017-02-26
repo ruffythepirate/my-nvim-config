@@ -1,5 +1,9 @@
 # Installation for Mac
 
+## Placement
+
+Clone this repository into `~/.config/nvim`
+
 ## Python
 
 1. `brew install python` or `brew upgrade python` if you have an old version.

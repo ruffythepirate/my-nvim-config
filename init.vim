@@ -68,8 +68,10 @@ set tags=./.tags,.tags,./tags,tags
 " Buffer Navigation
 nmap <C-j> :bp<cr>
 nmap <C-l> :bn<cr>
-nmap <C-k> :ls<cr>
-nmap <C-w> :bw<cr>
+nmap <C-k><C-l> :ls<cr>
+nmap <C-k><C-k> :bw<cr>
+
+" Extra Windows
 
 set hidden
 set number
